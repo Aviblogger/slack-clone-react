@@ -4,14 +4,15 @@ import 'firebase/database'
 import 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain: process.env.REACT_APP_authDomain,
-  databaseURL: process.env.REACT_APP_databaseURL,
-  projectId: process.env.REACT_APP_projectId,
-  storageBucket: process.env.REACT_APP_storageBucket,
-  messagingSenderId: process.env.REACT_APP_messagingSenderId,
-  appId: process.env.REACT_APP_appId,
-  measurementId: process.env.REACT_APP_measurementId,
+    apiKey: "AIzaSyDioTv5j0ZPWTMGULmtvW7wRS-B74aYLik",
+    authDomain: "aviblogger.firebaseapp.com",
+    databaseURL: "https://aviblogger.firebaseio.com",
+    projectId: "aviblogger",
+    storageBucket: "aviblogger.appspot.com",
+    messagingSenderId: "787486631447",
+    appId: "1:787486631447:web:db9a1af00c0b452c3f1e52",
+    measurementId: "G-W6CNNVYMHT"
+
 }
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig)
