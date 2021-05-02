@@ -4,15 +4,14 @@ import 'firebase/database'
 import 'firebase/storage'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDioTv5j0ZPWTMGULmtvW7wRS-B74aYLik",
-    authDomain: "aviblogger.firebaseapp.com",
-    databaseURL: "https://aviblogger.firebaseio.com",
-    projectId: "aviblogger",
-    storageBucket: "aviblogger.appspot.com",
-    messagingSenderId: "787486631447",
-    appId: "1:787486631447:web:db9a1af00c0b452c3f1e52",
-    measurementId: "G-W6CNNVYMHT"
-
+    apiKey: "AIzaSyDUZUCfD_wGsF-L7hT34_qq8ovizlJd05E",
+  authDomain: "avishka-dev-slack-clone-react.firebaseapp.com",
+  databaseURL: "https://avishka-dev-slack-clone-react-default-rtdb.firebaseio.com",
+  projectId: "avishka-dev-slack-clone-react",
+  storageBucket: "avishka-dev-slack-clone-react.appspot.com",
+  messagingSenderId: "671382271286",
+  appId: "1:671382271286:web:1476a6a3be50c9558def97",
+  measurementId: "G-EEHP9RVVL1"
 }
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig)
